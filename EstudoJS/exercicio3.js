@@ -13,7 +13,7 @@ As propriedades e tipos de valores para cada propriedade desse objeto devem ser:
 - `andando` - Boolean - recebe "falso" por padrão
 - `caminhouQuantosMetros` - Number - recebe "zero" por padrão
 */
-var pessoa = { nome: 'Bruna', sobrenome: 'Torres', sexo:'feminino', idade: 1,
+var pessoa = { nome: 'matheus', sobrenome: 'Torres', sexo:'masculino', idade: 1,
 altura: 170, peso: 55, andando: false, caminhouQuantosMetros: 0}
 
 
@@ -66,7 +66,7 @@ Crie um método chamado `mostrarIdade`, que retorne a frase:
 */
 
 pessoa.mostrarIdade = function(){
-    return 'Olá eu tenho ' + pessoa.idade + ' ' + 'anos!' 
+    return 'Olá eu tenho ' + pessoa.idade + '   anos!' 
 }
 
 /*
